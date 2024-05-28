@@ -1,0 +1,9 @@
+/* seletor :nth-child() encontra um filho específico*/
+li:nth-child(2) {
+    color: #f00;
+}
+
+/* odd ímpar / even par*/
+li:nth-child(even) {
+    color: #00f;
+}

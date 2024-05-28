@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    border-bottom: 1px solid #030308;
+    text-align: center;
+}
+h1 {
+    font-size: 70px;
+    padding-top: 0.5em;
+}
+
+h2{
+    display: inline-block;
+    font-size: 37px;
+}
+
+p {
+    padding-top: 1em;
+    padding-bottom: 2em;
+    font-size: 20px;
+}
+
+.join, .catalog, .cta {
+    font-size: 1.125rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.join-button {
+    background-color: #030308;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1em;
+    margin: 1em auto;
+    width: fit-content;
+    border-radius: 9999px;
+}
+
+.genres li {
+    display: inline-block;
+    margin: 2em 0.3em;
+}
+.genres a {
+    font-size: 20px;
+}
+.genre a {
+    background-color: #44abf6;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+    margin: 2em auto;
+    border-radius: 9999px;
+}
+
+.see-more a{
+    background-color: #030308;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+    margin: 2em auto;
+    border-radius: 9999px;
+}
+
+footer {
+    background-color: #030308;
+    color: #fff;
+    text-align: center;
+}
+
+footer p {
+    padding: 2em;
+}

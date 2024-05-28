@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #232323;
+    color: #fff;
+    padding: 10px;
+}
+
+section {
+    background-color: #ddd;
+    height: 100px;
+}
+
+.box {
+    border: 1px solid #232323;
+    display: inline-block;
+    margin-top: 20px;
+    width: 75px;
+}
+
+/* unidade fixa */
+.px  {
+    height: 10px;
+}
+
+/* tamanho baseado na fonte do elemento root -> 16px * 3 = 48px*/
+.rem {
+    font-size: 32px;
+    height: 3rem;
+}
+
+/* usa como referencia a fonte do próprio elemento. Ex. aumentando a fonte, o quadrado também aumenta. Diferente do rem */
+.em {
+    font-size: 32px;
+    height: 2em;
+}
+
+/* prcnt é baseado na % do elemento pai */
+.prcnt-33 {
+    height: 33%;
+}
+
+.prcnt-66 {
+    height: 66%;
+}
+
+.prcnt-100 {
+    height: 100%;
+}
+
+/* viewport height atrelado ao tamanho da áerea de visualização */
+.vh {
+    height: 30vh;
+}
+
+/* viewport width atrelado ao tamanho da áerea de visualização */
+.vw {
+    width: 50vw;
+}
