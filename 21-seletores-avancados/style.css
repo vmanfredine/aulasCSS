@@ -7,3 +7,38 @@ li:nth-child(2) {
 li:nth-child(even) {
     color: #00f;
 }
+
+/* mudar o comportamento conforme passar o mouse */
+li:hover {
+    background-color: #232323;
+    color: #fff;
+}
+
+/* deixa o elemento com "foco" */
+input:focus {
+    background-color: #f00;
+}
+
+/* pseudo-elementos - before e after*/
+li::before {
+    content: "(antes) ";
+    color: #0f0;
+    font-size: 1.5rem;
+}
+
+li::after {
+    content: " (depois)";
+}
+
+li:first-child {
+    color: #b88e03
+}
+
+li:last-child {
+    color: #c90ebf44;
+}
+
+/* oposto */
+li:not(:first-child) {
+    color: #f00
+}
